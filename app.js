@@ -3,7 +3,7 @@ let lista = document.getElementById("listaAmigos");
 
    function adicionarAmigo(event){
    let adcamigo = document.getElementById("amigo").value;
-    // if (event.type === "keydown" && event.key === "Enter"){
+   
     if(adcamigo.trim() ==="" || !isNaN(adcamigo) ){
      window.alert("comando invalido! insira um nome");
      document.getElementById("amigo").value= "";
